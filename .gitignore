@@ -10,7 +10,5 @@
 /logs.zip
 /options.ini
 /server-console.txt
-/Saves/Apocalypse/
-/Saves/Sandbox/
-/Saves/Survivor/
-!Saves/Multiplayer
+Saves/*
+!Saves/Multiplayer/
