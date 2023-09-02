@@ -10,5 +10,5 @@
 /logs.zip
 /options.ini
 /server-console.txt
-/Saves/*
+Saves/*
 !Saves/Multiplayer/
