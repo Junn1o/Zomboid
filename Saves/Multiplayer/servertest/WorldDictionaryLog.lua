@@ -3998,3 +3998,180 @@ table.insert(log, {
 	{ type = "reg_item", fulltype = "MoreSkillBooks.BookSmallBlunt2", registeryID = 2546, existsVanilla = false, isModded = true, modID = "MoreSkillBooks", obsolete = false, removed = false, isLoaded = true }
 	{ type = "reg_item", fulltype = "TOC.Prost_Right_Hand_MetalHook", registeryID = 2547, existsVanilla = false, isModded = true, modID = "Amputation", obsolete = false, removed = false, isLoaded = true }
 };
+log = log or {};
+table.insert(log, {
+	-- -------------------------------------------------------
+	-- Time: 2023/09/03 14:27:17
+	{
+		type = "info",
+		timeStamp = "2023/09/03 14:27:17",
+		saveWorld = "servertest",
+		worldVersion = 195,
+		hasErrored = false,
+		itemMods = {
+			"pz-vanilla",
+			"ToadTraits",
+			"tsarslib",
+			"isoContainers",
+			"BB_CommonSense",
+			"Onifurniture",
+			"rSemiTruck",
+			"LazoloDynamicBackpackUpgrades",
+			"manageContainers",
+			"ReducedPlank",
+			"BCGTools",
+			"autotsartrailers",
+			"BCGRareWeapons",
+			"BetterFlashlights",
+			"BasedBackpack",
+			"MoreSkillBooks",
+			"Amputation",
+			"BrutalHandwork",
+			"SchizophreniaTrait",
+			"DrivingSkill",
+			"82oshkoshM911",
+			"AdditionalBooks2",
+			"RS_WaterCistern",
+			"67commando",
+		},
+	},
+	{ type = "reg_item", fulltype = "Base.M911Trunk2", registeryID = 2548, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911TrunkDoor2", registeryID = 2549, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.Torch4", registeryID = 2550, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.Torch3", registeryID = 2551, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.Torch6", registeryID = 2552, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.Torch5", registeryID = 2553, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.Torch2", registeryID = 2554, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.Torch1", registeryID = 2555, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.Torch7", registeryID = 2556, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M127TrunkDoor2", registeryID = 2557, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSneaking5", registeryID = 2558, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSneaking4", registeryID = 2559, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSneaking3", registeryID = 2560, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSneaking2", registeryID = 2561, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSneaking1", registeryID = 2562, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911WindshieldArmor", registeryID = 2563, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.10000_Water_Tank3", registeryID = 2564, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.10000_Water_Tank2", registeryID = 2565, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.10000_Water_Tank1", registeryID = 2566, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookLightfooted3", registeryID = 2567, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookLightfooted4", registeryID = 2568, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookLightfooted5", registeryID = 2569, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookLightfooted1", registeryID = 2570, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookLightfooted2", registeryID = 2571, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911Mudflaps", registeryID = 2572, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "OshkoshShirts.TShirt_bknht", registeryID = 2573, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911Toolbox2", registeryID = 2574, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.BF_EgenerexLite", registeryID = 2575, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.V100Axle2", registeryID = 2576, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.HandTorch_Army2", registeryID = 2577, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.HandTorch_Army1", registeryID = 2578, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.Hat_HardHat_Miner_With_Light", registeryID = 2579, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSmallBlunt1", registeryID = 2580, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSpear1", registeryID = 2581, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSpear2", registeryID = 2582, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSpear3", registeryID = 2583, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSpear4", registeryID = 2584, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSmallBlunt3", registeryID = 2585, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSpear5", registeryID = 2586, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSmallBlunt2", registeryID = 2587, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSmallBlunt5", registeryID = 2588, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSmallBlunt4", registeryID = 2589, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.FrontLeftV100Door2", registeryID = 2590, existsVanilla = false, isModded = true, modID = "67commando", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSprinting5", registeryID = 2591, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSprinting4", registeryID = 2592, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSprinting3", registeryID = 2593, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSprinting2", registeryID = 2594, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSprinting1", registeryID = 2595, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.V100AxleSmall2", registeryID = 2596, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "OshkoshShirts.Hoodie_OshkoshGray", registeryID = 2597, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.HandTorch_ManLite", registeryID = 2598, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "OshkoshShirts.HoodieDOWN_OshkoshBlack", registeryID = 2599, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.TorchArmy2", registeryID = 2600, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.TorchArmy1", registeryID = 2601, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "OshkoshShirts.HoodieDOWN_OshkoshGray", registeryID = 2602, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookAiming3", registeryID = 2603, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookAiming4", registeryID = 2604, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookAiming1", registeryID = 2605, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookAiming2", registeryID = 2606, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookAiming5", registeryID = 2607, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.BF_SpiffoLite", registeryID = 2608, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "OshkoshShirts.TShirt_OshkoshGray", registeryID = 2609, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M129TrunkDoor2", registeryID = 2610, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.V100Tires2", registeryID = 2611, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "modchange_item", oldModID = "pz-vanilla", fulltype = "Base.Torch", registeryID = 1146, existsVanilla = true, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = false }
+	{ type = "reg_item", fulltype = "Base.RearV100Door2", registeryID = 2612, existsVanilla = false, isModded = true, modID = "67commando", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911Muffler", registeryID = 2613, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M967TrunkDoor2", registeryID = 2614, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookBlunt5", registeryID = 2615, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookBlunt2", registeryID = 2616, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookBlunt1", registeryID = 2617, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookBlunt4", registeryID = 2618, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.RS_WaterFilter", registeryID = 2619, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookBlunt3", registeryID = 2620, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911EngineDoor2", registeryID = 2621, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.V100EngineDoor2", registeryID = 2622, existsVanilla = false, isModded = true, modID = "67commando", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookReloading4", registeryID = 2623, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookReloading3", registeryID = 2624, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookReloading2", registeryID = 2625, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookReloading1", registeryID = 2626, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookReloading5", registeryID = 2627, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.3000_Water_Tank_Tainted3", registeryID = 2628, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.3000_Water_Tank_Tainted2", registeryID = 2629, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.3000_Water_Tank_Tainted1", registeryID = 2630, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911SideWindow2", registeryID = 2631, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSmallBlade5", registeryID = 2632, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSmallBlade1", registeryID = 2633, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSmallBlade2", registeryID = 2634, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSmallBlade3", registeryID = 2635, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookSmallBlade4", registeryID = 2636, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "OshkoshShirts.Hoodie_OshkoshBlack", registeryID = 2637, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "OshkoshShirts.TShirt_OshkoshBlack", registeryID = 2638, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.FRSideContainer_RS2", registeryID = 2639, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.FRSideContainer_RS1", registeryID = 2640, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.FRSideContainer_RS3", registeryID = 2641, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911WindshieldRear2", registeryID = 2642, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.V100ToolboxLid2", registeryID = 2643, existsVanilla = false, isModded = true, modID = "67commando", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.V100Toolbox2", registeryID = 2644, existsVanilla = false, isModded = true, modID = "67commando", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookAxe1", registeryID = 2645, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookAxe3", registeryID = 2646, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookAxe2", registeryID = 2647, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookAxe5", registeryID = 2648, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookAxe4", registeryID = 2649, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.3000_Water_Tank2", registeryID = 2650, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.3000_Water_Tank1", registeryID = 2651, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.3000_Water_Tank3", registeryID = 2652, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911CarFrontDoorArmor", registeryID = 2653, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.HandTorch_CK_LED", registeryID = 2654, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.BF_HeadLight", registeryID = 2655, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911Windshield2", registeryID = 2656, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookMaintenance5", registeryID = 2657, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookMaintenance3", registeryID = 2658, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookMaintenance4", registeryID = 2659, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookMaintenance1", registeryID = 2660, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookMaintenance2", registeryID = 2661, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.BF_OldFlashlight", registeryID = 2662, existsVanilla = false, isModded = true, modID = "BetterFlashlights", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookNimble5", registeryID = 2663, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911Bullbar0", registeryID = 2664, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911Bullbar1", registeryID = 2665, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookNimble1", registeryID = 2666, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookNimble2", registeryID = 2667, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookNimble3", registeryID = 2668, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookNimble4", registeryID = 2669, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookLongBlade2", registeryID = 2670, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookLongBlade3", registeryID = 2671, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookLongBlade1", registeryID = 2672, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookLongBlade4", registeryID = 2673, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "AdditionalBooks2.BookLongBlade5", registeryID = 2674, existsVanilla = false, isModded = true, modID = "AdditionalBooks2", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.FrontRightV100Door2", registeryID = 2675, existsVanilla = false, isModded = true, modID = "67commando", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.1500_Water_Tank1", registeryID = 2676, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.1500_Water_Tank3", registeryID = 2677, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.1500_Water_Tank2", registeryID = 2678, existsVanilla = false, isModded = true, modID = "RS_WaterCistern", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911WindshieldRearArmor", registeryID = 2679, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M128TrunkDoor2", registeryID = 2680, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M911CarFrontDoor2", registeryID = 2681, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "USMIL.Seat0", registeryID = 2682, existsVanilla = false, isModded = true, modID = "67commando", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.M967SmallTrunk2", registeryID = 2683, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.V100Tire2", registeryID = 2684, existsVanilla = false, isModded = true, modID = "82oshkoshM911", obsolete = false, removed = false, isLoaded = true }
+	{ type = "reg_item", fulltype = "Base.V100Window2", registeryID = 2685, existsVanilla = false, isModded = true, modID = "67commando", obsolete = false, removed = false, isLoaded = true }
+};
