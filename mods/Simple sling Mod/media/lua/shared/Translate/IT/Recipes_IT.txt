@@ -1,0 +1,9 @@
+Recipes_IT = {
+    Recipe_Make_Rifle_Sling = "Crea Cintura per fucile",
+    Recipe_Make_Chest_Rig = "Crea Fondina sul petto",
+    Recipe_Make_Back_Rig = "Crea Fodero Dietro",
+    Recipe_Make_Webbing = "Crea Cliip Tattico",
+    Recipe_Make_Simple_Knife_sheath = "Crea Fodero Coltello",
+    Recipe_Make_Tactical_vest= "Crea Gilet tattico",
+    Recipe_Make_Katana_Sheath= "Crea Fodero Katana",
+}

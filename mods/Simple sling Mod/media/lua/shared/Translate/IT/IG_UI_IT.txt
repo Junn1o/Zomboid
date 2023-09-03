@@ -1,0 +1,14 @@
+IGUI_IT = {
+	IGUI_CraftCategory_Tailoring = "Tailoring",
+	IGUI_HotbarAttachment_Back2 = "Tactical vest hanging",
+	IGUI_HotbarAttachment_Sling = "Cintura per fucile",
+	IGUI_HotbarAttachment_SlingAlt = "Cintura per fucile2",
+	IGUI_HotbarAttachment_SlingAlt2 = "Cintura per fucile3",
+	IGUI_HotbarAttachment_SlingAlt3 = "Cintura per fucile4",
+	IGUI_HotbarAttachment_Back3 = "Dietro3",
+	IGUI_HotbarAttachment_KatanaSheath = "Fodero katana",
+	IGUI_HotbarAttachment_KnifeSheathBack = "Fodero coltello dietro",
+	IGUI_HotbarAttachment_KnifeSheath = "Fodero coltello",
+	IGUI_HotbarAttachment_ChestRigRight = "Busto",
+	IGUI_HotbarAttachment_ChestRig = "Busto",
+}

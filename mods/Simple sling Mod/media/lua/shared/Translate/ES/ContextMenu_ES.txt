@@ -1,0 +1,11 @@
+ContextMenu_ES = {
+    ContextMenu_SlingStyle1 = "Adelante \",
+    ContextMenu_SlingStyle2 = "Adelante /",
+    ContextMenu_SlingStyle3 = "Adelante --",
+    ContextMenu_SlingStyle4 = "Atras",
+    ContextMenu_WearTight = "Use ropa ajustada",
+    ContextMenu_WearLoose = "El desgaste suel",
+    ContextMenu_Wearup = "El desgaste",
+    ContextMenu_KnifeSheath_Wear = "Engranen el mus",
+    ContextMenu_KnifeSheath_WearBack = "Engranaje en la cintura",
+}

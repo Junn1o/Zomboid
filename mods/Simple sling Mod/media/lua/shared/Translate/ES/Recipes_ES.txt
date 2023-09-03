@@ -1,0 +1,9 @@
+Recipes_ES = {
+    Recipe_Make_Rifle_Sling = "Hacer Portafusil",
+    Recipe_Make_Chest_Rig = "Hacer Simple plataforma de pecho",
+    Recipe_Make_Back_Rig = "Hacer Simple plataforma trasera",
+    Recipe_Make_Webbing = "Hacer que las redes sean sencillas",
+    Recipe_Make_Simple_Knife_sheath = "Hacer la vaina Simple del cuchillo",
+    Recipe_Make_Tactical_vest= "Hacer chaleco tácsimple",
+    Recipe_Make_Katana_Sheath= "Fabrican la vaina Simple de la Katana",
+}

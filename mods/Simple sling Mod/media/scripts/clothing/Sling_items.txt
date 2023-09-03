@@ -1,0 +1,252 @@
+module Base
+{
+
+    item TacticalVest
+    {
+        Weight = 0.8,
+        Type = Container,
+        DisplayName = Tactical Vest,
+        ClothingItem = TacticalVest,
+        BodyLocation = HunkVest,
+        Icon = TacticalVest,
+        WeightReduction	=	100,
+	    Capacity	=	20,
+        ClothingItemExtra = TacticalVest,
+        AttachmentsProvided = Back2;Back3,
+        ClothingItemExtraOption = Wearup,
+        CanBeEquipped = HunkVest,
+        PutInSound   =   PutItemInBag,
+		WorldStaticModel = TacticalVestGround,
+    }
+
+    item ChestRig
+    {
+        Weight	=	0.4,
+        Type	=	Clothing,
+        DisplayName	=	Chest Holster,
+        IconsForTexture = ChestRig_Gray;ChestRig_Green;ChestRig_Tan,
+        BodyLocation = TorsoRig,
+        ClothingItem = ChestRig,
+        AttachmentsProvided = ChestRig,
+        WorldStaticModel = FannyPack_Ground,
+    }
+
+    item Webbing
+    {
+        Weight	=	0.4,
+        Type	=	Clothing,
+        DisplayName	=	Webbing (Tight),
+        IconsForTexture = Webbing_Grays;Webbing_Gray;Webbing_Green;Webbing_Tan;Webbing_Leather;Webbing_Black;Webbing_Green,
+        BodyLocation = TorsoRig,
+        ClothingItem = Webbing,
+        AttachmentsProvided = ChestRig;ChestRigRight,
+        ClothingItemExtra = WebbingLoose,
+        ClothingItemExtraOption = WearLoose,
+        ClothingExtraSubmenu = WearTight,
+		WorldStaticModel = PA_Webbing,
+    }
+    item WebbingLoose
+    {
+        Weight	=	0.4,
+        Type	=	Clothing,
+        DisplayName	=	Webbing (Loose),
+        IconsForTexture = Webbing_Grays;Webbing_Gray;Webbing_Green;Webbing_Tan;Webbing_Leather;Webbing_Black;Webbing_Green,
+        BodyLocation = TorsoRig,
+        ClothingItem = WebbingLoose,
+        AttachmentsProvided = ChestRig;ChestRigRight,
+        ClothingItemExtra = Webbing,
+        ClothingItemExtraOption = WearTight,
+        ClothingExtraSubmenu = WearLoose,
+		WorldStaticModel = PA_Webbing,
+    }
+ 
+    item Webbing_Military
+    {
+        Weight	=	0.4,
+        Type	=	Clothing,
+        DisplayName	=	Webbing (Tight),
+        IconsForTexture = Webbing_Green;Webbing_Tan;Webbing_Leather;Webbing_Gray,
+        BodyLocation = TorsoRig,
+        ClothingItem = Webbing_Military,
+        AttachmentsProvided = ChestRig;ChestRigRight,
+        ClothingItemExtra = Webbing_MilitaryLoose,
+        ClothingItemExtraOption = WearLoose,
+        ClothingExtraSubmenu = WearTight,
+		WorldStaticModel = PA_Webbing,
+    }
+    item Webbing_MilitaryLoose
+    {
+        Weight	=	0.4,
+        Type	=	Clothing,
+        DisplayName	=	Webbing (Loose),
+        IconsForTexture = Webbing_Green;Webbing_Tan;Webbing_Leather;Webbing_Gray,
+        BodyLocation = TorsoRig,
+        ClothingItem = Webbing_MilitaryLoose,
+        AttachmentsProvided = ChestRig;ChestRigRight,
+        ClothingItemExtra = WebbingMilitary,
+        ClothingItemExtraOption = WearTight,
+        ClothingExtraSubmenu = WearLoose,
+		WorldStaticModel = PA_Webbing,
+    }
+
+
+    item Webbing_Black
+    {
+        Weight	=	0.4,
+        Type	=	Clothing,
+        DisplayName	=	Webbing (Tight),
+        Icon = Webbing_Black,
+        BodyLocation = TorsoRig,
+        ClothingItem = Webbing_Black,
+        AttachmentsProvided = ChestRig;ChestRigRight,
+        ClothingItemExtra = Webbing_BlackLoose,
+        ClothingItemExtraOption = WearLoose,
+        clothingExtraSubmenu = WearTight,
+		WorldStaticModel = PA_Webbing,
+    }
+    item Webbing_BlackLoose
+    {
+        Weight	=	0.4,
+        Type	=	Clothing,
+        DisplayName	=	Webbing (Loose),
+        Icon = Webbing_Black,
+        BodyLocation = TorsoRig,
+        ClothingItem = Webbing_BlackLoose,
+        AttachmentsProvided = ChestRig;ChestRigRight,
+        ClothingItemExtra = Webbing_Black,
+        ClothingItemExtraOption = WearTight,
+        clothingExtraSubmenu = WearLoose,
+		WorldStaticModel = PA_Webbing,
+    }
+
+	item SlingA
+    {
+        Weight	=	0.01,
+        Type	=	Clothing,
+        DisplayName	= Rifle Sling1,
+        BodyLocation = Sling,
+        ClothingItem = SlingA,
+        AttachmentsProvided = Sling,
+        Icon = slingAky,
+	    Cosmetic = TRUE,
+        ChanceToFall = 0,
+        ClothingItemExtra = SlingAalt;SlingAalt2;SlingAalt3,
+        ClothingItemExtraOption = SlingStyle2;SlingStyle3;SlingStyle4,
+        ClothingExtraSubmenu = SlingStyle1,
+        WorldStaticModel = SlingFlat,
+    } 
+
+	item SlingAalt
+    {
+        Weight	=	0.01,
+        Type	=	Clothing,
+        DisplayName	= Rifle Sling2,
+        BodyLocation = Sling2,
+        ClothingItem = SlingAalt,
+        AttachmentsProvided = SlingAlt,
+        Icon = slingAky-1,
+	    Cosmetic = TRUE,
+        ChanceToFall = 0,
+        ClothingItemExtra = SlingA;SlingAalt2;SlingAalt3,
+        ClothingItemExtraOption = SlingStyle1;SlingStyle3;SlingStyle4,
+        ClothingExtraSubmenu = SlingStyle2,
+        WorldStaticModel = SlingFlat,
+    } 
+
+	item SlingAalt2
+    {
+        Weight	=	0.01,
+        Type	=	Clothing,
+        DisplayName	= Rifle Sling3,
+        BodyLocation = Sling3,
+        ClothingItem = SlingAalt2,
+        AttachmentsProvided = SlingAlt2,
+        Icon = slingAky-2,
+	    Cosmetic = TRUE,
+        ChanceToFall = 0,
+        ClothingItemExtra = SlingA;SlingAalt;SlingAalt3,
+        ClothingItemExtraOption = SlingStyle1;SlingStyle2;SlingStyle4,
+        ClothingExtraSubmenu = SlingStyle3,
+        WorldStaticModel = SlingFlat,
+    } 
+
+    item SlingAalt3
+    {
+        Weight	=	0.01,
+        Type	=	Clothing,
+        DisplayName	= Rifle Sling4,
+        BodyLocation = Sling4,
+        ClothingItem = SlingAalt3,
+        AttachmentsProvided = SlingAlt3,
+        Icon = slingAky-3,
+	    Cosmetic = TRUE,
+        ChanceToFall = 0,
+        ClothingItemExtra = SlingA;SlingAalt;SlingAalt2,
+        ClothingItemExtraOption = SlingStyle1;SlingStyle2;SlingStyle3,
+        ClothingExtraSubmenu = SlingStyle4,
+        WorldStaticModel = SlingFlat,
+    } 
+
+   item KnifeSheath
+   {
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=KnifeSheath,
+        ClothingItemExtra = KnifeSheath(back),
+        ClothingItemExtraOption = KnifeSheath_WearBack,
+        clothingExtraSubmenu = KnifeSheath_Wear,
+        Icon	=	KnifeSheath,
+        BodyLocation = KnifeSheath,
+        ClothingItem = Holster,
+        ClothingItem = KnifeSheath,
+        AttachmentsProvided = KnifeSheath,
+        ColorRed = 254,
+        ColorGreen = 254,
+        ColorBlue = 254,
+        WorldStaticModel = KnifeSheathGround,
+    }
+
+   item KnifeSheath(back)
+   {
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=KnifeSheath(back),
+        ClothingItemExtra = KnifeSheath,
+        ClothingItemExtraOption = KnifeSheath_Wear,
+        clothingExtraSubmenu = KnifeSheath_WearBack,
+        Icon	=	KnifeSheath(back),
+        BodyLocation = KnifeSheathBack,
+        ClothingItem = Holster,
+        ClothingItem = KnifeSheath(back),
+        AttachmentsProvided = KnifeSheathBack,
+        ColorRed = 256,
+        ColorGreen = 256,
+        ColorBlue = 256,
+        WorldStaticModel = KnifeSheathGround,
+    }
+
+    item BackRig
+    {
+        Weight	=	0.2,
+        Type	=	Clothing,
+        DisplayName	=	Back Rig,
+        IconsForTexture = ChestRig_Gray;ChestRig_Green;ChestRig_Tan,
+        BodyLocation = Back2,
+        ClothingItem = BackRig,
+        AttachmentsProvided = Back2,
+        WorldStaticModel = FannyPack_Ground,
+    }
+
+    item KatanaSheath
+    {
+        DisplayCategory = Accessory,
+        ClothingItem = KatanaSheath,
+        Weight	=	0.3,
+        Type	=	Clothing,
+        DisplayName	=	Katana Sheath,
+        IconsForTexture = KatanaSheath;KatanaSheathBlack;KatanaSheathRed;KatanaSheathWhite, 
+        BodyLocation = KatanaSheath,
+        AttachmentsProvided = KatanaSheath,   
+        WorldStaticModel = KatanaSheathGround,
+    }
+}
