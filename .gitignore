@@ -12,3 +12,7 @@
 /server-console.txt
 Saves/*
 !Saves/Multiplayer/
+!Mods/
+mods/default.txt
+mods/ddesktop.ini
+mods/reset-mods-41_51.txt

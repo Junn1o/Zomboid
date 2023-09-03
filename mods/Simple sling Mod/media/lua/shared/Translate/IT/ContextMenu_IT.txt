@@ -1,0 +1,11 @@
+ContextMenu_IT = {
+    ContextMenu_SlingStyle1 = "Avanti \",
+    ContextMenu_SlingStyle2 = "Avanti /",
+    ContextMenu_SlingStyle3 = "Avanti --",
+    ContextMenu_SlingStyle4 = "Dietro",
+    ContextMenu_WearTight = "Indossa stretto",
+    ContextMenu_WearLoose = "Indossa largo",
+    ContextMenu_Wearup = "Indossa",
+    ContextMenu_KnifeSheath_Wear = "Equipaggia sulla coscia",
+    ContextMenu_KnifeSheath_WearBack = "Equipaggia attaccata alla cintura dietro",
+} 

@@ -1,0 +1,18 @@
+ItemName_IT = {
+	ItemName_Base.SlingA = "Cintura per fucile",
+	ItemName_Base.SlingAalt = "Cintura per fucile",
+	ItemName_Base.SlingAalt2 = "Cintura per fucile",
+	ItemName_Base.SlingAalt3 = "Cintura per fucile",
+	ItemName_Base.ChestRig = "Fondina sul petto",
+	ItemName_Base.BackRig = "Fodero Dietro",
+	ItemName_Base.Webbing = "Cliip Tattico",
+	ItemName_Base.WebbingLoose = "Cliip Tattico largo",
+	ItemName_Base.Webbing_Military = "Cliip Tattico_Militare",
+	ItemName_Base.Webbing_MilitaryLoose = "Cliip Tattico_Militare largo",
+	ItemName_Base.Webbing_Black = "Cliip Tattico_Nero",
+	ItemName_Base.Webbing_BlackLoose = "Cliip Tattico_Nero largo",
+	ItemName_Base.KnifeSheath = "Fodero Coltello",
+	ItemName_Base.KnifeSheath(back) = "Fodero Coltello(Nero)",
+	ItemName_Base.KatanaSheath = "Fodero Katana",
+	ItemName_Base.TacticalVest = "Gilet tattico",
+}

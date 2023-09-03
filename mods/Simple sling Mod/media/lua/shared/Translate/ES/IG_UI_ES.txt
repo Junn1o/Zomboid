@@ -1,0 +1,14 @@
+IGUI_ES = {
+	IGUI_CraftCategory_Tailoring = "Sastreria",
+	IGUI_HotbarAttachment_Back2 = "atrás2",
+	IGUI_HotbarAttachment_Sling = "Sling",
+	IGUI_HotbarAttachment_SlingAlt = "Sling2",
+	IGUI_HotbarAttachment_SlingAlt2 = "Sling3",
+	IGUI_HotbarAttachment_SlingAlt3 = "Sling4",
+	IGUI_HotbarAttachment_Back3 = "atrás3",
+	IGUI_HotbarAttachment_KatanaSheath = "KatanaSheath",
+	IGUI_HotbarAttachment_KnifeSheathBack = "KnifeSheathBack (en inglés)",
+	IGUI_HotbarAttachment_KnifeSheath = "KnifeSheath",
+	IGUI_HotbarAttachment_ChestRigRight = "castrigright",
+	IGUI_HotbarAttachment_ChestRig = "Fabricación a",
+}

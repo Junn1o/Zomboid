@@ -1,0 +1,18 @@
+ItemName_RU = {
+	ItemName_Base.SlingA = "Ремень для оружия",
+	ItemName_Base.SlingAalt = "Ремень для оружия",
+	ItemName_Base.SlingAalt2 = "Ремень для оружия",
+	ItemName_Base.SlingAalt3 = "Ремень для оружия",
+	ItemName_Base.ChestRig = "Крепление (грудь)",
+	ItemName_Base.BackRig = "Крепление (спина)",
+	ItemName_Base.Webbing = "Разгрузка",
+	ItemName_Base.WebbingLoose = "Разгрузка (растёгнута)",
+	ItemName_Base.Webbing_Military = "Армейская разгрузка",
+	ItemName_Base.Webbing_MilitaryLoose = "Армейская разгрузка (растёгнута)",
+	ItemName_Base.Webbing_Black = "Чёрная разгрузка",
+	ItemName_Base.Webbing_BlackLoose = "Черная разгрузка (растёгнута)",
+	ItemName_Base.KnifeSheath = "Ножны для ножа",
+	ItemName_Base.KnifeSheath(back) = "Ножны для ножа (назад)",
+	ItemName_Base.KatanaSheath = "Ножны для катаны",
+	ItemName_Base.TacticalVest = "Тактический жилет",
+}

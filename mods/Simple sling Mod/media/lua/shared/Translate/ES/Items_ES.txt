@@ -1,0 +1,18 @@
+ItemName_ES = {
+	ItemName_Base.SlingA = "Correa simple para rifle",
+	ItemName_Base.SlingAalt = "Correa simple para rifle-2",
+	ItemName_Base.SlingAalt2 = "Correa simple para rifle-3",
+	ItemName_Base.SlingAalt3 = "Correa simple para rifle-4",
+	ItemName_Base.ChestRig = "Simple ChestRig",
+	ItemName_Base.BackRig = "BackRig",
+	ItemName_Base.Webbing = "Simple Webbing",
+	ItemName_Base.WebbingLoose = "Simple WebbingLoose",
+	ItemName_Base.Webbing_Military = "Simple Webbing_Military",
+	ItemName_Base.Webbing_MilitaryLoose = "Simple Webbing_MilitaryLoose",
+	ItemName_Base.Webbing_Black = "Simple Webbing_Black",
+	ItemName_Base.WebbingLoose = "Simple Webbing_BlackLoose",
+	ItemName_Base.KnifeSheath = "Simple Knife sheath",
+	ItemName_Base.KnifeSheath(back) = "Simple Knife sheath(black)",
+	ItemName_Base.KatanaSheath = "Simple KatanaSheath",
+	ItemName_Base.TacticalVest = "Simple Tactical vest",
+}

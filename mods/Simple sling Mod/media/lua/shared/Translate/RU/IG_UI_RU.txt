@@ -1,0 +1,14 @@
+IGUI_RU = {
+	IGUI_CraftCategory_Tailoring = "Портняжное дело",
+	IGUI_HotbarAttachment_Back2 = "Спина 2",
+	IGUI_HotbarAttachment_Sling = "Ремень для оружия",
+	IGUI_HotbarAttachment_SlingAlt = "Ремень для оружия",
+	IGUI_HotbarAttachment_SlingAlt2 = "Ремень для оружия",
+	IGUI_HotbarAttachment_SlingAlt3 = "Ремень для оружия",
+	IGUI_HotbarAttachment_Back3 = "Спина 3",
+	IGUI_HotbarAttachment_KatanaSheath = "Ножны для катаны",
+	IGUI_HotbarAttachment_KnifeSheathBack = "Ножны для ножа (сзади)",
+	IGUI_HotbarAttachment_KnifeSheath = "Ножны для ножа",
+	IGUI_HotbarAttachment_ChestRigRight = "Крепление на грудь (справа)",
+	IGUI_HotbarAttachment_ChestRig = "Крепление на грудь",
+}

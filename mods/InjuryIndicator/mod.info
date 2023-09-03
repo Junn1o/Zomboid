@@ -1,0 +1,5 @@
+name=Injury Indicator
+poster=poster.png
+id=InjuryIndicator
+description=Shows injuries as they happen above the character's head for a short duration.
+url=

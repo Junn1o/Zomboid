@@ -1,0 +1,12 @@
+ContextMenu_RU = {
+
+    ContextMenu_SlingStyle1 = "Положение ремня \",
+    ContextMenu_SlingStyle2 = "Положение ремня /",
+    ContextMenu_SlingStyle3 = "Положение ремня --",
+    ContextMenu_SlingStyle4 = "Положение ремня |",
+    ContextMenu_WearTight = "Застегнуть",
+    ContextMenu_WearLoose = "Растегнуть",
+    ContextMenu_Wearup = "Надеть",
+    ContextMenu_KnifeSheath_Wear = "Надеть спереди",
+    ContextMenu_KnifeSheath_WearBack = "Надеть сзади",
+}

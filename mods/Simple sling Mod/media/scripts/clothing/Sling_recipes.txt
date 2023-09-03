@@ -1,0 +1,127 @@
+module Base
+{
+	imports
+	{
+		Base
+	}
+
+
+	recipe Make Simple Knife sheath
+    {
+	Belt2,
+	LeatherStrips/LeatherStripsDirty,
+	Thread, 
+        DuctTape/Scotchtape,
+        keep KitchenKnife/HuntingKnife/Scissors,
+        keep Needle,
+        /*NeedToBeLearn:true,*/
+        Result:KnifeSheath,
+        Time:300.0,
+        Category:Tailoring,
+      	SkillRequired:Tailoring=2,
+    }
+
+	recipe Make Rifle Sling
+    {
+        Belt2=1,
+        LeatherStrips=6,
+        Thread=6, 
+        Tarp=2,
+        keep Scissors,
+        keep Needle,
+        Result:SlingA,
+        Time:500.0,
+        AnimNode:RipSheets,
+        Category:Tailoring,
+      	SkillRequired:Tailoring=3,
+    }
+
+	recipe Make Tactical Vest
+    {
+        Belt2=2,
+        SlingA=1,
+        WalkieTalkie4=1,
+        ChestRig=2,
+        BackRig=2,
+        LeatherStrips=20,
+        Thread=20, 
+        RippedSheets=20,
+        Tarp=8,
+        keep Scissors,
+        keep Needle,
+        Result:TacticalVest,
+        Time:2000.0,
+        AnimNode:RipSheets,
+        Category:Tailoring,
+      	SkillRequired:Tailoring=10,
+    }
+
+	recipe Make Chest Rig
+    {
+	Belt2=1,
+	LeatherStrips/LeatherStripsDirty,
+	LeatherStrips/LeatherStripsDirty,
+	Thread=2, 
+        DuctTape/Scotchtape=2,
+        keep KitchenKnife/HuntingKnife/Scissors,
+        keep Needle,
+        /*NeedToBeLearn:true,*/
+        Result:ChestRig,
+        Time:600.0,
+        Category:Tailoring,
+      	SkillRequired:Tailoring=3,
+    }
+
+	recipe Make Webbing
+    {
+	Belt2=2,
+	ChestRig=2,
+	LeatherStrips/LeatherStripsDirty,
+	LeatherStrips/LeatherStripsDirty,
+	LeatherStrips/LeatherStripsDirty,
+	Thread=4, 
+        DuctTape/Scotchtape=4,
+        keep KitchenKnife/HuntingKnife/Scissors,
+        keep Needle,
+        /*NeedToBeLearn:true,*/
+        Result:Webbing,
+        Time:900.0,
+        Category:Tailoring,
+      	SkillRequired:Tailoring=4,
+    }
+	
+	recipe Make Back Rig
+    {
+	Belt2=2,
+	LeatherStrips/LeatherStripsDirty,
+	LeatherStrips/LeatherStripsDirty,
+	LeatherStrips/LeatherStripsDirty,
+	Thread=3, 
+        DuctTape/Scotchtape=3,
+        keep KitchenKnife/HuntingKnife/Scissors,
+        keep Needle,
+        /*NeedToBeLearn:true,*/
+        Result:BackRig,
+        Time:900.0,
+        Category:Tailoring,
+      	SkillRequired:Tailoring=4,
+    }
+
+	recipe Make Katana Sheath
+	{
+		Belt2,
+		KnifeSheath=1,
+		LeatherStrips=8,
+		Thread=8,
+		RippedSheets=10,
+	    keep Scissors,
+		keep Needle,
+
+		Result 				: KatanaSheath,
+		Time 				: 500,
+		Category    		: Tailoring,
+		SkillRequired 		: Tailoring=2,
+		AnimNode 			: Disassemble,
+		Prop1 				: Needle,
+	}	
+}

@@ -1,0 +1,9 @@
+Recipes_RU = {
+    Recipe_Make_Rifle_Sling = "Сделать крепление для оружия",
+    Recipe_Make_Chest_Rig = "Сделать крепление на грудь",
+    Recipe_Make_Back_Rig = "Сделать крепление на спину",
+    Recipe_Make_Webbing = "Сделать разгрузку",
+    Recipe_Make_Simple_Knife_sheath = "Сделать ножны для ножа",
+    Recipe_Make_Tactical_Vest = "Сделать тактический жилет",
+    Recipe_Make_Katana_Sheath= "Сделать ножны для катаны",
+}
